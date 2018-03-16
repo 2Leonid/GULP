@@ -1,0 +1,26 @@
+.text {
+	border: 3px solid green;
+	display: none;
+	padding: 5px;
+	position: absolute;
+	width: 500px;
+}
+
+.block {
+	float: left;
+	margin-right: 5px;
+}
+
+
+.active{
+	display: block;
+	position: absolute;
+}
+
+.p{
+	border: 3px solid green;
+	padding: 5px;
+	margin-bottom: -3px;
+}
+
+

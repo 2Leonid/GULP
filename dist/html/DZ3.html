@@ -1,0 +1,16 @@
+<html>
+  <head>
+   <link rel="stylesheet" href="../css/style.css">
+   <div id="text"></div>
+<script>
+      var text = "мама  сказала: 'Привет' ,я ответил 'привет' ,и мы пошли 'пить чай' aren't  ";
+var obr = text.replace(/\B'\B/g, '"');
+var div = document.getElementById('text');
+var bl = document.createElement("div");
+bl.textContent = obr;
+div.appendChild(bl);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
